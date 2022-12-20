@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Todo List</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="text-center text-light my-4">
+      <img src="christmas_logo.png" class="mb-3" style="max-width: 360px" alt="logo">
+      <h4 class="mb-4">Airmine employee checklist</h1>
+      <form class="search">
+        <input class="form-control m-auto" type="text" name="search" placeholder="search todos" />
+      </form>
+    </header>
+
+    <ul class="list-group todos mx-auto text-light">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <img src="Kristin.jpg" style="border-radius: 50%; width: 20%;" alt="employ">
+        <span>Kristin Grenan</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <img src="Kristian.png" style="border-radius: 50%; width: 20%;" alt="employ">
+        <span>Kristian Tangen</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <img src="Espen.png" style="border-radius: 50%; width: 20%;" alt="employ">
+        <span>Espen Øverbye</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <img src="Marianne.jpg" style="border-radius: 50%; width: 20%;" alt="employ">
+        <span>Marianne Amble</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+    </ul>
+
+    <form class="add text-center my-3">
+      <label class="text-light">Add a new employ...</label>
+      <input class="form-control m-auto" type="text" name="add" />
+    </form>
+
+    <div class="text-center my-4 bg-white">
+      <h4>Our partners</h4>
+      <img src="Logo_Astma.png" width="360" alt="partners">
+    </div>
+
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
