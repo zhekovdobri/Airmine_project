@@ -8,7 +8,6 @@
 
 ## Technologies Used
 
-* _React Js
 * _JavaScript_
 * _CSS_
 * _HTML_
